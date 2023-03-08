@@ -1,0 +1,33 @@
+buy low, sell high
+
+array with
+days as the index 
+price is the value on index
+
+while (array not overrun) {
+    if ((low < high) == positive) {
+        profit = high - low
+        calc maximum of profit vs. prevmax
+    } else {
+        increment pointer to array
+    }
+}
+return max
+
+approach
+find and store the lowest first
+find the max element from the given lowest value
+
+
+initialise two pointers
+left pointer
+right pointer
+
+since time moves only in one direction
+i.e iteration to happen only in right / forward direction
+
+rp will be right of lp
+
+if lp - rp = negative, increment lp
+if lp - rp = positive, increment rp and subtract from lp, stroe the profit in max profit
+repeat above steps till subtracted value croses max profit

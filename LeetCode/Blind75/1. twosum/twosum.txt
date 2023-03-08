@@ -1,0 +1,16 @@
+return the index values of the array
+whose sum will result in the target
+
+mentioned that only one solution exists
+
+fix one value of the array
+add the remaining elements to that fixed value
+see if the sum matches the target
+
+if yes, return the index
+if not,
+    increment the iterator pointing at the constant value to the next value
+    add the new constat value and add the numbers that come after it
+    check again
+
+
