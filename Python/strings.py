@@ -38,3 +38,9 @@ ourname = "TS Corp"
 
 print(len(ourname)) # its 7 since its starting from 0
 print(ourname[0:2]) # Strign slicing, index 2 is ignored, at 0 and 1 we have T and S so O/P >> TS
+
+# To ge the index of a charecter from a string, you can use the .index() method
+print(ourname.index("T")) # O/P >> 0
+print(ourname.index("Cor"))
+
+print(ourname.replace("Corp", "Corporation"))
